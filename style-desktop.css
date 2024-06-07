@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*Card*/
+
+section.card {
+    height: 410px;
+    width: 550px;
+    flex-flow: row nowrap;
+}
+
+section.card > div.picture {
+    background: var(--color-dark-cyan) url(images/image-product-desktop.jpg) left center no-repeat;
+    background-size: cover;
+    height: 100%;
+    flex: 1 0 50%;    
+}
+
+section.card > div.text{
+    flex: 1 1 50%;  
+}
+
+section.card > div.text > div.price> span#new {
+    font-size: 30px;   
+}
+
+section.card > div.text > div.price > span#prev {
+    font-size: 14px;   
+}
+
+section.card > div.text > div.price {    
+    padding-bottom: 24px;      
+}
+
+/*Card - button*/
+
+div.button {    
+    height: 40px;      
+}
+
+div.button span#cart {
+    font-size: 16px;    
+}
+
+div.button span#text {
+     
+    font-size: 13px;
+}
